@@ -1,0 +1,330 @@
+@charset "utf-8";
+@import url(./common.css);
+
+.indi{
+    margin-top:90px;
+    margin-left:15%;
+    width:30%;
+    height:50px;
+    border:1px solid #DB1A35;
+    display:flex;
+    justify-content: space-between;
+    vertical-align: middle;
+}
+.indi > a{
+    width:30%;
+    height:100%;
+    overflow:hidden;
+}
+.indi .home{
+    width:100%;
+    overflow:hidden;
+    background-color: #DB1A35;
+    text-align:center;
+}
+.indi .home > img{
+}
+.indi > div:nth-of-type(2){
+    width:30%;
+    background-color:white;
+    text-align:center;
+}
+.indi > div:nth-of-type(2) > p{
+    color:black;
+    font-size:1em;
+}
+.indi > .last{
+    width:40%;
+    background-color:white;
+    text-align:center;
+}
+.indi > .last > p{
+    color:black;
+    font-size:1em;
+}
+
+main{
+    width:70%;
+    margin:100px auto 0;
+
+}
+main .appetizer{
+    width:100%; height:504px;
+    background-image: url(../img/appebg.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    /* border:1px solid black; */
+    position:relative;
+    overflow:hidden;
+    margin:0 0 50px;
+}
+main .appetizer > .blue{
+    width:100%;
+    display:flex;
+    justify-content: space-between;
+    /* border:1px solid blue; */
+}
+main .appetizer .info{
+    width:45%;
+    height:50%;
+    margin:10% 0 0;
+    text-align:right;
+}
+main .appetizer .info p:nth-of-type(1){
+    font-size:1.5em;
+    color:#782207;
+    margin:0px;
+}
+main .appetizer .info p:nth-of-type(2){
+    color:black;
+    display:block;
+    size:1em;
+    font-weight: lighter;
+    margin:0;
+}
+
+main .appetizer .info p:nth-of-type(3){
+    color:#747474;
+    font-size:1.2em;
+
+}
+main .appetizer .info p:nth-of-type(4){
+    margin:10px 0;
+    color:black;
+    font-size:1em;
+}
+
+main .appetizer .info p:nth-of-type(5){
+    margin:20px 0;
+    color:black;
+    font-size:1.3em;
+}
+main .appetizer figure{
+    width:50%;
+}
+main .appetizer figure img{
+    width:100%;
+}
+main .appetizer .list{
+    width:40%;
+    position:absolute;
+    left:5%; top:70%;
+}
+main .appetizer .list img{
+    width:25%;
+}
+
+main .appetizer .list img:nth-of-type(1){
+    position:absolute;
+    left:0;top:0;
+}
+main .appetizer .list img:nth-of-type(2){
+    position:absolute;
+    left:25%;top:0;
+}
+main .appetizer .list img:nth-of-type(3){
+    position:absolute;
+    left:50%;top:0;
+}
+main .appetizer .list img:nth-of-type(4){
+    position:absolute;
+    left:75%;top:0;
+}
+main > a{
+    margin:50px auto 0;
+    width:100%; height:100px;
+    text-align:center;
+}
+main > a > p{
+    width:30%;
+    margin:0 auto;
+    background-color:#2C2E2D;
+    font-size:0.8em;
+    color:white;
+    padding:20px;
+    border-radius: 10px;
+}
+
+main .dessert{
+    width:100%;
+    margin:50px 0;
+    position:relative;
+}
+main .dessert .blue{
+    /* border:1px solid blue; */
+    width:100%; height:504px;
+    background-image: url(../img/dessbg.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    display:flex;
+    justify-content: space-between;
+}
+
+main .dessert figure{
+    width:45%;
+}
+main .dessert figure img{
+    width:80%;
+}
+main .dessert .info{
+    width:45%;
+    height:50%;
+    margin:10% 0 0;
+    margin-right:5%;
+    text-align:left;
+}
+main .dessert .info p:nth-of-type(1){
+    font-size:1.5em;
+    color:#782207;
+    margin:0px;
+}
+main .dessert .info p:nth-of-type(2){
+    color:black;
+    display:block;
+    size:1em;
+    font-weight: lighter;
+    margin:0;
+}
+main .dessert .info p:nth-of-type(3){
+    margin:10px 0;
+    color:black;
+    font-size:1em;
+    white-space: pre-line;
+}
+main .dessert .info p:nth-of-type(4){
+    margin:20px 0;
+    color:black;
+    font-size:1.3em;
+}
+main .dessert .list{
+    width:30%;
+    position:absolute;
+    z-index:2;
+    right:5%; top:70%;
+    display:flex;
+    justify-content: space-between;
+}
+main .dessert .list img{
+    width:30%;
+}
+main .dessert .list img:nth-of-type(1){
+    position:absolute;
+    left:0;top:0;
+}
+main .dessert .list img:nth-of-type(2){
+    position:absolute;
+    left:33%; top:0;
+}
+main .dessert .list img:nth-of-type(3){
+    position:absolute;
+    left:66%; top:0;
+}
+
+main .button{
+    width:70%;
+    margin:0px auto;
+    margin-top:70px;
+    display:flex;
+    justify-content: space-between;
+    vertical-align: middle;
+
+}
+main .button>div{
+    /* border:1px solid coral; */
+}
+
+main .button .reser{
+    width:40%;
+}
+main .button .reser a{
+    width:100%;
+    position:relative;
+}
+
+main .button .reser a span:nth-of-type(1){
+    position:absolute;
+    left:5%; top:0%;
+    width:20%; height: 70%;
+    background-color: #DB1A35;
+    z-index:-10;
+}
+main .button .reser a span:nth-of-type(2){
+    position:absolute;
+    left:27%; top:0%;
+    width:5%; height: 70%;
+    background-color: #DB1A35;
+    z-index:-10;
+}
+main .button .reser a span:nth-of-type(3){
+    position:absolute;
+    left:34%; top:0%;
+    width:5%; height: 70%;
+    background-color: #DB1A35;
+    z-index:-10;
+}
+
+main .button .reser a .btn{
+    width:80%;
+    margin:0px auto;
+    margin-top:4%;
+    border-radius: 10px;
+    background-color: #2C2E2D;
+    text-align:center;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+main .button .reser a div p:nth-of-type(1){
+    font-size:0.7em;
+    margin:0;padding:0;
+    padding-top:1em;
+    color:rgb(171, 171, 171);
+}
+main .button .reser a div p:nth-of-type(2){
+    font-size:1em;
+    margin:0;padding:0;
+    padding-bottom:1em;
+    color:white;
+}
+
+main .button .find{
+    width:40%;
+}
+main .button .find a{
+    width:100%;
+    position:relative;
+}
+main .button .find a .btn{
+    width:80%;
+    margin:0px auto;
+    border-radius: 10px;
+    background-color: #2C2E2D;
+    text-align:center;
+}
+main .button .find a .btn p{
+    font-size:1em;
+    padding:1.2em 0px;
+    color:white;
+}
+main .button .find a span:nth-of-type(1){
+    position:absolute;
+    right:34%; top:50%;
+    width:5%; height: 70%;
+    background-color: #DB1A35;
+    z-index:-10;
+}
+main .button .find a span:nth-of-type(2){
+    position:absolute;
+    right:27%; top:50%;
+    width:5%; height: 70%;
+    background-color: #DB1A35;
+    z-index:-10;
+}
+main .button .find a span:nth-of-type(3){
+    position:absolute;
+    right:5%; top:50%;
+    width:20%; height: 70%;
+    background-color: #DB1A35;
+    z-index:-10;
+}
+

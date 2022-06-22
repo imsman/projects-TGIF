@@ -1,0 +1,331 @@
+@charset "utf-8";
+
+@import url(./common.css);
+
+
+.indi{
+    margin-top:90px;
+    margin-left:15%;
+    width:30%;
+    height:50px;
+    border:1px solid #DB1A35;
+    display:flex;
+    justify-content: space-between;
+    vertical-align: middle;
+}
+.indi > a{
+    width:30%;
+    height:100%;
+    overflow:hidden;
+}
+.indi .home{
+    width:100%;
+    overflow:hidden;
+    background-color: #DB1A35;
+    text-align:center;
+}
+.indi .home > img{
+}
+.indi > div:nth-of-type(2){
+    width:30%;
+    background-color:white;
+    text-align:center;
+}
+.indi > div:nth-of-type(2) > p{
+    color:black;
+    font-size:1em;
+}
+.indi > .last{
+    width:40%;
+    background-color:white;
+    text-align:center;
+}
+.indi > .last > p{
+    color:black;
+    font-size:1em;
+}
+
+main{
+    width:70%; margin:100px auto 0;
+
+}
+main > p{
+    font-size:1em;
+    margin-top:0px;
+}
+main > .steak_banner{
+    width:100%;
+    margin:10px 0 50px;
+}
+main > .steak_banner > .banner1{
+    position:relative;
+}
+main > .steak_banner > .banner1 > .bannerimg{
+    position:relative;
+}
+main > .steak_banner > .banner1 > .bannerimg > img:nth-of-type(2){
+    position:absolute;
+    left:0; top:0;
+    z-index:2;
+}
+
+main > .steak_banner > .banner1 > .info{
+    position:absolute;
+    left:60%; top:25%;
+    z-index:2;
+}
+main > .steak_banner > .banner1 > .info > p:nth-of-type(1){
+    font-size:2em;
+    color:#E35F5F;
+}
+main > .steak_banner > .banner1 > .info > p:nth-of-type(1)::after{
+    content:'New York Strip Steak';
+    color:white;
+    font-size:15px;
+    display:block;
+    font-weight:lighter;
+}
+main > .steak_banner > .banner1 >.info > p:nth-of-type(2){
+    margin-top:30px;
+    font-size:1.5em;
+    color:#747474;
+}
+main > .steak_banner > .banner1 >.info > p:nth-of-type(3){
+    margin-top:30px;
+    font-size:1.5em;
+    color:#9F9F9F;
+}
+main > .steak_banner > .banner1 >.info > p:nth-of-type(4){
+    margin-top:30px;
+    font-size:1em;
+    color:white;
+    white-space: pre-line;
+}
+
+
+main > .list{
+    margin-top:100px;
+    display:flex;
+    flex-direction:column;
+    width:100%;
+
+}
+main > .list > li{
+    margin:20px 0;
+}
+main > .list > li > div{
+    display:flex;
+    flex-direction:row;
+    width:100%;
+    justify-content: space-between;
+}
+main > .list > li > div > .list_img{
+    width:50%;
+}
+main > .list > li > div > .list_img > img{
+    width:100%;
+}
+main > .list > li:nth-of-type(1) img{
+    transform:translateY(5%);
+}
+main > .list > li:nth-of-type(2) img{
+    transform:scale(0.9) translateY(5%);
+}
+main > .list > li:nth-of-type(3) img{
+    transform:scale(0.85) translateY(10%);
+}
+main > .list > li:nth-of-type(4) img{
+    transform:scale(0.9) translateY(5%);
+}
+
+
+main > .list > li > div > .info{
+    width:45%;
+    text-align:left;
+}
+main > .list > li > div > .info > p{}
+main > .list > li > div > .info > p:nth-of-type(1){
+    font-size:1.8em;
+    color:#E35F5F;
+}
+main > .list > li > div > .info > p:nth-of-type(1)::after{
+    content:'Signature Steak';
+    color:#000000;
+    font-size:15px;
+    display:block;
+    font-weight:lighter;
+}
+main > .list > li > div > .info > p:nth-of-type(3){
+    margin-top:20px;
+    font-size:1.3em;
+    color:#9F9F9F;
+}
+main > .list > li > div > .info > p:nth-of-type(4){
+    margin-top:20px;
+    font-size:1em;
+    color:black;
+    white-space: pre-line;
+}
+
+main .source{
+    margin:0 auto;
+    margin-top:80px;
+    width:100%;
+    height:450px;
+    background-image: url(../img/sourcebg.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    border-radius:10px;
+    position:relative;
+}
+main .source > .title{
+    color:white;
+    font-size:1em;
+    background-color: #DB1A35;
+    display:inline;
+    padding:10px 20px;
+    border-radius: 10px;
+    position:absolute;
+    top:1%; left:40%;
+}
+main .source > .title > p{
+    display:inline;
+    color:black;
+}
+main .source > ul{
+    width:90%;
+    height:80%;
+    margin:auto;
+    transform:translateY(20%);
+    display:flex;
+    justify-content: space-between;
+    overflow:hidden;
+}
+main .source > ul > li{
+    width:30%;
+    margin:0px 10px;
+    overflow:hidden;
+}
+main .source > ul > li > p:nth-of-type(1){
+    color:#A40000;
+    font-size:1em;
+
+}
+main .source > ul > li > p:nth-of-type(2){
+    padding-top:0px;
+    white-space: pre-line;
+    font-size:0.8em;
+    color:#999999;
+}
+main .source > ul > li > img{
+    width:90%;
+    transform:scale(0.8);
+}
+
+main .button{
+    width:70%;
+    margin:0px auto;
+    margin-top:100px;
+    display:flex;
+    justify-content: space-between;
+    vertical-align: middle;
+
+}
+main .button>div{
+    /* border:1px solid coral; */
+}
+
+main .button .reser{
+    width:40%;
+}
+main .button .reser a{
+    width:100%;
+    position:relative;
+}
+
+main .button .reser a span:nth-of-type(1){
+    position:absolute;
+    left:5%; top:0%;
+    width:20%; height: 70%;
+    background-color: #DB1A35;
+    z-index:-10;
+}
+main .button .reser a span:nth-of-type(2){
+    position:absolute;
+    left:27%; top:0%;
+    width:5%; height: 70%;
+    background-color: #DB1A35;
+    z-index:-10;
+}
+main .button .reser a span:nth-of-type(3){
+    position:absolute;
+    left:34%; top:0%;
+    width:5%; height: 70%;
+    background-color: #DB1A35;
+    z-index:-10;
+}
+
+main .button .reser a .btn{
+    width:80%;
+    margin:0px auto;
+    margin-top:4%;
+    border-radius: 10px;
+    background-color: #2C2E2D;
+    text-align:center;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+main .button .reser a div p:nth-of-type(1){
+    font-size:0.7em;
+    margin:0;padding:0;
+    padding-top:1em;
+    color:rgb(171, 171, 171);
+}
+main .button .reser a div p:nth-of-type(2){
+    font-size:1em;
+    margin:0;padding:0;
+    padding-bottom:1em;
+    color:white;
+}
+
+main .button .find{
+    width:40%;
+}
+main .button .find a{
+    width:100%;
+    position:relative;
+}
+main .button .find a .btn{
+    width:80%;
+    margin:0px auto;
+    border-radius: 10px;
+    background-color: #2C2E2D;
+    text-align:center;
+}
+main .button .find a .btn p{
+    font-size:1em;
+    padding:1.2em 0px;
+    color:white;
+}
+main .button .find a span:nth-of-type(1){
+    position:absolute;
+    right:34%; top:50%;
+    width:5%; height: 70%;
+    background-color: #DB1A35;
+    z-index:-10;
+}
+main .button .find a span:nth-of-type(2){
+    position:absolute;
+    right:27%; top:50%;
+    width:5%; height: 70%;
+    background-color: #DB1A35;
+    z-index:-10;
+}
+main .button .find a span:nth-of-type(3){
+    position:absolute;
+    right:5%; top:50%;
+    width:20%; height: 70%;
+    background-color: #DB1A35;
+    z-index:-10;
+}
