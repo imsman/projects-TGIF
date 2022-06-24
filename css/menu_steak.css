@@ -13,37 +13,28 @@
     justify-content: space-between;
     vertical-align: middle;
 }
-.indi > a{
-    width:30%;
-    height:100%;
-    overflow:hidden;
+
+.indi > div{
+    width:33%;
+    text-align:center;
 }
-.indi .home{
+
+.indi > div > a{
     width:100%;
-    overflow:hidden;
-    background-color: #DB1A35;
+    height:100%;
     text-align:center;
 }
-.indi .home > img{
+
+.indi .home{
+    background-color:#DB1A35;
 }
-.indi > div:nth-of-type(2){
-    width:30%;
-    background-color:white;
-    text-align:center;
+
+.indi > div > a > p{
+    font-size:15px;
 }
-.indi > div:nth-of-type(2) > p{
-    color:black;
-    font-size:1em;
-}
-.indi > .last{
-    width:40%;
-    background-color:white;
-    text-align:center;
-}
-.indi > .last > p{
-    color:black;
-    font-size:1em;
-}
+
+
+
 
 main{
     width:70%; margin:100px auto 0;

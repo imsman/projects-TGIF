@@ -1,11 +1,11 @@
 @charset "utf-8";
 @import url(./common.css);
 
-/* 하위의 하위까지 들어가면 세칸
-하위만 들어가면 두칸되게 스크립트넣기 */
+
 
 .indi{
     margin-top:90px;
+    margin-left:15%;
     width:30%;
     height:50px;
     border:1px solid #DB1A35;
@@ -13,38 +13,27 @@
     justify-content: space-between;
     vertical-align: middle;
 }
-.indi > a{
-    width:30%;
-    height:100%;
-    overflow:hidden;
-}
-.indi .home{
-    width:100%;
-    overflow:hidden;
-    background-color: #DB1A35;
+
+.indi > div{
+    width:33%;
     text-align:center;
 }
 
-.indi .middle{
-    width:30%;
-    background-color:white;
+.indi > div > a{
+    width:100%;
+    height:100%;
     text-align:center;
 }
-.indi .middle p{
-    color:black;
-    font-size:1em;
+
+.indi .home{
+    background-color:#DB1A35;
 }
-.indi >a:last-child{
-    background-color:#E35F5F;
+
+.indi > div > a > p{
+    font-size:15px;
 }
-.indi .last{
-    width:40%;
-    text-align:center;
-}
-.indi .last p{
-    color:black;
-    font-size:1em;
-}
+
+
 /* ----------------------------------------------- */
 main{
     width: 70%; margin:100px auto 0;

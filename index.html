@@ -15,6 +15,9 @@
     <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32" />
     <link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+    <script defer src="./js/index.js"></script>
 </head>
 
 <body>
@@ -23,17 +26,27 @@
             <a href="#">사이트맵</a>
             <a href="#">프랜차이즈</a>
         </div>
+        <div class="sitemap">
+            <ul>
+                <li><a href="./index.html">메인</a></li>
+                <li><a href="./introduce.html">TGIF 소개</a></li>
+                <li><a href="./appe&dess.html">애피타이저 & 디저트</a></li>
+                <li><a href="./menu_steak.html">스테이크</a></li>
+                <li><a href="./store.html">매장찾기</a></li>
+            </ul>
+        </div>
+        
         <nav>
             <ul>
                 <li>
-                    <a href="">
+                    <a href="./introduce.html">
                         <p>OUR STORY</p>
                     </a>
                     <div>
                         <ul>
-                            <li><a>연혁</a></li>
-                            <li><a>로고의미</a></li>
-                            <li><a>상징</a></li>
+                            <li><a href="./introduce.html">연혁</a></li>
+                            <li><a href="./introduce.html">로고의미</a></li>
+                            <li><a href="./introduce.html">상징</a></li>
                         </ul>
                     </div>
                 </li>
@@ -44,8 +57,8 @@
                     <div>
                         <ul>
                             <li><a>시그니처</a></li>
-                            <li><a>에피타이저<br>&디저트</a></li>
-                            <li><a>스테이크</a></li>
+                            <li><a href="./appe&dess.html">에피타이저<br>&디저트</a></li>
+                            <li><a href="./menu_steak.html">스테이크</a></li>
                             <li><a>파스타&라이스</a></li>
                             <li><a>샘플러</a></li>
                         </ul>
@@ -71,7 +84,7 @@
                     <div>
                         <ul>
                             <li><a>예약하기</a></li>
-                            <li><a>매장찾기</a></li>
+                            <li><a href="./store.html">매장찾기</a></li>
                         </ul>
                     </div>
                 </li>
@@ -81,11 +94,32 @@
 
     <main>
 
-        <div class="main-banner">
-            <div class="bannerimg">
-                <img src="./img/banner/mainbanner.jpg" alt="">
+        <div class="mainban">
+            <div class="bannerAll">
+                <div class="banner">
+                    <a href="#">
+                        <img src="./img/banner/mainbanner.jpg" alt="">
+                    </a>
+                </div>
+                <div class="banner">
+                    <a href="#">
+                        <img src="./img/banner/bannerdown.jpg" alt="">
+                    </a>
+                </div>
+                <div class="banner">
+                    <a href="#">
+                        <img src="./img/banner/steakbanner.jpg" alt="">
+                    </a>
+                </div>
             </div>
         </div>
+        <!-- ------------------------------------------------------------------------------------------------------------- -->
+
+
+
+
+        <!-- ------------------------------------------------------------------------------------------------------------- -->
+
 
         <div class="section2">
             <div class="title">
@@ -94,18 +128,24 @@
             </div>
 
             <div class="content">
-                <div class="bgbox1">
-                    <img src="./img/food/steak2.png" alt="">
-                    <p>프라이데이스의<br>Signiture<br>Menu</p>
-                </div>
-                <div class="bgbox2">
-                    <p>프라이데이스의<br>마늘듬뿍,새우듬뿍<br>감바스</p>
-                    <img src="./img/food/gambas.png" alt="">
-                </div>
-                <div class="bgbox3">
-                    <p>특별한날에 어울리는<br>프리미엄 티본스테이크</p>
-                    <img src="./img/food/steak1.png" alt="">
-                </div>
+                <a href="./menu_steak.html">
+                    <div class="bgbox1">
+                        <img src="./img/food/steak2.png" alt="">
+                        <p>프라이데이스의<br>Signiture<br>Menu</p>
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="bgbox2">
+                        <p>프라이데이스의<br>마늘듬뿍,새우듬뿍<br>감바스</p>
+                        <img src="./img/food/gambas.png" alt="">
+                    </div>
+                </a>
+                <a href="./menu_steak.html">
+                    <div class="bgbox3">
+                        <p>특별한날에 어울리는<br>프리미엄 티본스테이크</p>
+                        <img src="./img/food/steak1.png" alt="">
+                    </div>
+                </a>
             </div>
         </div>
 
@@ -220,7 +260,11 @@
         </div>
     </footer>
 
+    
 
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="./slick/slick.min.js"></script>
 </body>
 
 </html>
