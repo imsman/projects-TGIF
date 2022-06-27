@@ -1,5 +1,5 @@
 $.ajax({
-    url: '../json/store.json',
+    url: './json/store.json',
     success: function (data) {
         console.log('로딩완료');
         let storeImg = '';
@@ -16,5 +16,9 @@ $.ajax({
                         </li>`
         });
         $('.store > ul').html(storeImg);
+
+        // $('.store ul li').on('click',function{
+        //     $('.popup').css('display','block');
+        // })
     }
 })
