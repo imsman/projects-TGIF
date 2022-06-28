@@ -67,8 +67,8 @@ figure {
     border:1px solid #dbdbdb;
     background-color: white;
     box-shadow: 1px 1px 1px rgba(0,0,0,0.5);
-    display:none;
     text-align:center;
+    display:none;
 }
 
 .sitemap ul li{

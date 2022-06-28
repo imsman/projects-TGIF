@@ -106,7 +106,7 @@ main{
     transform:translateY(0%);
 }
 
-.store > .popup{
+/* .store > .popup{
     width:60%;
     height:70%;
     position:fixed;
@@ -134,7 +134,7 @@ main{
 
 .store > .popup > .popuptext > b{
     width:50%;
-}
+} */
 
 
 main .button{
