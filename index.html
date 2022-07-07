@@ -14,10 +14,8 @@
     <link rel="stylesheet" href="./css/index.css">
     <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32" />
     <link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16" />
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
-    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
     <script defer src="./js/index.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
 </head>
 
 <body>
@@ -27,15 +25,47 @@
             <a href="#">프랜차이즈</a>
         </div>
         <div class="sitemap">
-            <ul>
-                <li><a href="./index.html">메인</a></li>
-                <li><a href="./introduce.html">TGIF 소개</a></li>
-                <li><a href="./appe&dess.html">애피타이저 & 디저트</a></li>
-                <li><a href="./menu_steak.html">스테이크</a></li>
-                <li><a href="./store.html">매장찾기</a></li>
-            </ul>
+            <div class="all">
+                <div>
+                    <a href="./index.html">메인</a>
+                </div>
+                <div class="siteul">
+                    <ul class="one">
+                        <li><a href="./introduce.html">TGIF 소개</a></li>
+                        <li>연혁</li>
+                        <li>로고의미</li>
+                        <li>상징</li>
+                    </ul>
+                    <ul class="two">
+                        <li>메뉴</a></li>
+                        <li>시그니처</li>
+                        <li><a href="./appe&dess.html">에피타이저<br>&디저트</a></li>
+                        <li><a href="./menu_steak.html">스테이크</a></li>
+                        <li>파스타&라이스</li>
+                        <li>샘플러</li>
+                    </ul>
+                    <ul class="three">
+                        <li>이벤트</li>
+                        <li>이벤트</li>
+                        <li>프로모션</li>
+                        <li>바텐더<br>챔피언십</li>
+                    </ul>
+                    <ul class="four">
+                        <li><a href="./store.html">매장찾기</a></li>
+                        <li>매장위치</li>
+                        <li>예약하기</li>
+                    </ul>
+                    <ul class="five">
+                        <li>뉴스레터</li>
+                        <li>Facebook</li>
+                        <li>Twitter</li>
+                        <li>Instargram</li>
+                        <li>Youtube</li>
+                    </ul>
+                </div>
+            </div>
         </div>
-        
+
         <nav>
             <ul>
                 <li>
@@ -93,30 +123,30 @@
     </header>
 
     <main>
-
-        <div class="mainban">
-            <div class="bannerAll">
-                <div class="banner">
-                    <a href="#">
+        <div class="mainban swiper mySwiper">
+            <div class="bannerAll swiper-wrapper">
+                <div class="banner swiper-slide">
+                    <a href="./menu_steak.html">
                         <img src="./img/banner/index-banner1.jpg" alt="">
                     </a>
                 </div>
-                <div class="banner">
-                    <a href="#">
+                <div class="banner swiper-slide">
+                    <a href="./menu_steak.html">
                         <img src="./img/banner/index-banner2.jpg" alt="">
                     </a>
                 </div>
-                <div class="banner">
-                    <a href="#">
+                <div class="banner swiper-slide">
+                    <a href="./menu_steak.html">
                         <img src="./img/banner/index-banner3.jpg" alt="">
                     </a>
                 </div>
-                <div class="banner">
-                    <a href="#">
+                <div class="banner swiper-slide">
+                    <a href="./menu_steak.html">
                         <img src="./img/banner/index-banner4.jpg" alt="">
                     </a>
                 </div>
             </div>
+            <div class="swiper-scrollbar"></div>
         </div>
         <!-- ------------------------------------------------------------------------------------------------------------- -->
 
@@ -129,7 +159,7 @@
         <div class="section2">
             <div class="title">
                 <p>THANKS GOD ITS NEW!</p>
-                <span>프라이데이스의 신메뉴를 소개합니다!</span>
+                <span>&nbsp;&nbsp;&nbsp;&nbsp;프라이데이스의 신메뉴를 소개합니다!</span>
             </div>
 
             <div class="content">
@@ -160,22 +190,27 @@
             </div>
             <div class="content">
                 <div class="imgtxt">
+                    <div></div>
                     <img src="./img/banner/section3-1.jpg" alt="">
                     <a href="#">MAKE A RESERVATION</a>
                 </div>
                 <div class="imgtxt">
+                    <div></div>
                     <img src="./img/banner/section3-chef.jpg" alt="">
                     <a href="#"></a>
                 </div>
                 <div class="imgtxt">
+                    <div></div>
                     <img src="./img/banner/wtgif1.jpg" alt="">
                     <a href="#">앱 다운받고<br>멤버십혜택 즐기기</a>
                 </div>
                 <div class="imgtxt">
+                    <div></div>
                     <img src="./img/banner/section3-store.jpg" alt="">
-                    <a href="#">매장찾기</a>
+                    <a href="./store.html">매장찾기</a>
                 </div>
             </div>
+            <span></span>
         </div>
 
         <div class="section4">
@@ -186,7 +221,7 @@
                 </a>
             </div>
             <div class="box two">
-                <a href="#">
+                <a href="./menu_steak.html">
                     <img src="./img/icon/main.jpg" alt="">
                     <p>main ▷</p>
                 </a>
@@ -208,13 +243,13 @@
         <div class="newsletter">
             <div class="title">
                 <p>NEWS LETTER</p>
-                <span>TGIF의 소식을 e-mail로 받아보세요!</span>
+                <span>&nbsp;&nbsp;&nbsp;&nbsp;TGIF의 소식을 e-mail로 받아보세요!</span>
             </div>
             <div class="input">
                 <input type="email" placeholder="이메일을 입력해주세요.">
-                <button type="submit">
-                    <!-- <img src="./img/icon/submiticonwhite.png" alt=""> -->
-                </button>
+                <a href="#">
+                    <img src="./img/icon/submiticonwhite.png" alt="">
+                </a>
             </div>
         </div>
     </main>
@@ -265,11 +300,9 @@
         </div>
     </footer>
 
-    
 
-    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
-    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-    <script type="text/javascript" src="./slick/slick.min.js"></script>
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 </body>
 
 </html>
