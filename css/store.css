@@ -1,0 +1,247 @@
+@charset "utf-8";
+
+@import url(./common.css);
+
+
+
+.indi{
+    margin-top:90px;
+    margin-left:15%;
+    width:30%;
+    height:50px;
+    border:1px solid #DB1A35;
+    display:flex;
+    justify-content: space-between;
+    vertical-align: middle;
+}
+
+.indi > div{
+    width:33%;
+    text-align:center;
+}
+
+.indi > div > a{
+    width:100%;
+    height:100%;
+    text-align:center;
+}
+
+.indi .home{
+    background-color:#DB1A35;
+}
+
+.indi > div > a > p{
+    font-size:15px;
+}
+
+
+/* ----------------------------------------------- */
+main{
+    width: 70%; margin:100px auto 0;
+}
+
+.store{
+    margin:0;
+    margin-top:80px;
+    width:100%;
+}
+
+.store ul{
+    width:100%;
+    padding:0;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+
+}
+.store ul li{
+    width:30%;
+    height:263px;
+    margin:15px 10px;
+    position:relative;
+    overflow:hidden;
+}
+.store ul li a{
+    width:100%; height:100%;
+    position:absolute;
+    left:0; top:0;
+}
+.store ul li a > img{
+    width:100%;
+    transition:0.5s; 
+}
+
+.store ul li:hover a > img{
+    width:100%;
+    opacity:50%;
+}
+
+.store ul li a > div{
+    width:100%;
+    height:20%;
+    position:absolute;
+    top:80%; left:0;
+    z-index:5;
+    background-color:black;
+    text-align:right;
+    padding-right:60px;
+    padding-top:15px;
+    opacity:0%;
+    transform:translateY(100%);
+    transition:0.5s;
+}
+.store ul li a > div > p{
+    color:white;
+    font-size:15px;
+    display:inline;
+}
+.store ul li a > div > img{
+    display:inline;
+    position:absolute;
+    right:5%; top:20%;
+}
+
+.store ul li:hover a > div{
+    opacity:100%;
+    transform:translateY(0%);
+}
+
+/* .store > .popup{
+    width:60%;
+    height:70%;
+    position:fixed;
+    left:20%; top:15%;
+    background-color: white;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    display:none; 
+}
+
+.store > .popup > .popupimg{
+    width:100%;
+    height:50%;
+    overflow:hidden;
+}
+.store > .popup > .popupimg > img{
+    width:100%;
+}
+.store > .popup > .popuptext{
+    margin-top:20px;
+    width:100%;
+    height:50%;
+    text-align:center;
+}
+
+.store > .popup > .popuptext > b{
+    width:50%;
+}*/
+
+
+main .button{
+    width:70%;
+    margin:0px auto;
+    margin-top:70px;
+    display:flex;
+    justify-content: space-between;
+    vertical-align: middle;
+
+}
+main .button>div{
+    /* border:1px solid coral; */
+}
+
+main .button .reser{
+    width:40%;
+}
+main .button .reser a{
+    width:100%;
+    position:relative;
+}
+
+main .button .reser a span:nth-of-type(1){
+    position:absolute;
+    left:5%; top:0%;
+    width:20%; height: 70%;
+    background-color: #DB1A35;
+    z-index:-10;
+}
+main .button .reser a span:nth-of-type(2){
+    position:absolute;
+    left:27%; top:0%;
+    width:5%; height: 70%;
+    background-color: #DB1A35;
+    z-index:-10;
+}
+main .button .reser a span:nth-of-type(3){
+    position:absolute;
+    left:34%; top:0%;
+    width:5%; height: 70%;
+    background-color: #DB1A35;
+    z-index:-10;
+}
+
+main .button .reser a .btn{
+    width:80%;
+    margin:0px auto;
+    margin-top:4%;
+    border-radius: 10px;
+    background-color: #2C2E2D;
+    text-align:center;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+main .button .reser a div p:nth-of-type(1){
+    font-size:0.7em;
+    margin:0;padding:0;
+    padding-top:1em;
+    color:rgb(171, 171, 171);
+}
+main .button .reser a div p:nth-of-type(2){
+    font-size:1em;
+    margin:0;padding:0;
+    padding-bottom:1em;
+    color:white;
+}
+
+main .button .find{
+    width:40%;
+}
+main .button .find a{
+    width:100%;
+    position:relative;
+}
+main .button .find a .btn{
+    width:80%;
+    margin:0px auto;
+    border-radius: 10px;
+    background-color: #2C2E2D;
+    text-align:center;
+}
+main .button .find a .btn p{
+    font-size:1em;
+    padding:1.2em 0px;
+    color:white;
+}
+main .button .find a span:nth-of-type(1){
+    position:absolute;
+    right:34%; top:50%;
+    width:5%; height: 70%;
+    background-color: #DB1A35;
+    z-index:-10;
+}
+main .button .find a span:nth-of-type(2){
+    position:absolute;
+    right:27%; top:50%;
+    width:5%; height: 70%;
+    background-color: #DB1A35;
+    z-index:-10;
+}
+main .button .find a span:nth-of-type(3){
+    position:absolute;
+    right:5%; top:50%;
+    width:20%; height: 70%;
+    background-color: #DB1A35;
+    z-index:-10;
+}
