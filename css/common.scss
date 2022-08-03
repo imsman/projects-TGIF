@@ -4,6 +4,10 @@
     text-decoration: none;
 }
 
+body,html{
+    margin:0; padding:0;
+}
+
 .helper {
     margin-top: 60px;
     width: 35%;
@@ -12,10 +16,10 @@
         width:100%;
         
         >.helpin {
-            width: 35%;
+            width: 30%;
             display: flex;
             justify-content: space-between;
-            transform: translate(1350px, 25px);
+            transform: translate(1380px, 25px);
             position: relative;
 
             >a {
@@ -104,14 +108,14 @@
                     }
                 }
             }
+            &.active{
+                opacity:100%;
+            }
         }
     }
 
 }
 
-.active {
-    opacity:100%;
-}
 
 header {
     margin-top: 50px;

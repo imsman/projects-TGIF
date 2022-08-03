@@ -6,7 +6,7 @@ $.ajax({
 
         $.each(data.mall, function (key, value) {
             storeImg += `<li>
-                            <a href="">
+                            <a href="#">
                                 <img src="${value.url}" alt="">
                                 <div>
                                     <p>${value.title}</p>
@@ -17,8 +17,30 @@ $.ajax({
         });
         $('.store > ul').html(storeImg);
 
-        // $('.store ul li').on('click',function{
-        //     $('.popup').css('display','block');
+        // let popDiv = '';
+        // let popNum = 0;
+
+        // $.each(data.mall, function (idx, value) {
+
+        //     $('.store > ul > li').on('click', function () {
+        //         popNum = $('.store > ul > li').indexOf($(this));
+        //         event.preventDefault();
+
+        //         popDiv = `<div class="popupimg">
+        //                         <img src="${url.eq(idx)}" alt="">
+        //                     </div>
+        //                     <div class="popuptext">
+        //                         <b>${title.eq(idx)}</b>
+        //                         <p>전화번호</p>
+        //                         <p>주소</p>
+        //                         <button>예약하기</button>
+        //                     </div>`;
+
+        //         $('.store > .popup').html(popDiv);
+
+        //         $(this).parent().next().addClass('active');
+            
+        //     })
         // })
     }
-})
+});

@@ -6,14 +6,15 @@ $('footer').load('inc.html > footer > .footer_bg');
 
 
 function navi() {
-    const help = document.querySelector('.helper .helpin > a:first-child');
-    const sitemap = document.querySelector('.sitemap');
+    let help = document.querySelector('.helpin > a:nth-of-type(1)');
+    let sitemap = document.querySelector('.sitemap .popup');
 
-    help.addEventListener('click', function () {
-        sitemap.classList.add('active');
-        
-        sitemap.addEventListener('click',function(){
-            this.classList.remove('active');
+    $(help).on('click', function () {
+        $(sitemap).addClass('active');
+        console.log('click');
+
+        $(sitemap).on('click', function () {
+            $(this).removeClass('active');
         })
     })
 }
